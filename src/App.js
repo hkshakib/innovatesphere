@@ -1,5 +1,7 @@
 function App() {
-  return <div className="flex">Hello</div>;
+  return (
+    <div className="w-full-screen border bg-[#eeeeee] font-inter flex flex-col gap-4"></div>
+  );
 }
 
 export default App;
