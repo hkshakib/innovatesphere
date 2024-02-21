@@ -14,7 +14,7 @@ const Home = () => {
         style={{ overflow: "hidden" }}
         className="flex flex-col basis-[50%]  items-center"
       >
-        <div className="flex basis-[50%] lg:justify-end lg:items-center flex-col w-[100%]">
+        <div className="flex basis-[50%] lg:justify-end items-center flex-col w-[100%]">
           <div className="flex flex-col">
             <div className="flex">
               <p className="w-auto text-[#4A6CF7] font-semibold mr-2">
@@ -37,8 +37,8 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-1 lg:basis-[50%] items-center justify-center gap-8 w-[100%]">
-          <a href="#footer" className="hidden md:flex">
-            <button className="hidden md:flex justify-center items-center h-[40px] w-[100px] md:h-[50px] md:w-[150px] lg:leading-7 lg:h-[50px] lg:w-[180px] lg:text-[18px] border lg:border-2 lg:border-indigo-700 rounded-[50px] text-white  lg:text-black bg-[#6E07F3] lg:bg-white hover:bg-[#6E07F3] hover:transition-all duration-700 hover:text-white hover:shadow-lg text-[14px]">
+          <a href="#footer" className="md:flex">
+            <button className="flex justify-center items-center h-[40px] w-[100px] md:h-[50px] md:w-[150px] lg:leading-7 lg:h-[50px] lg:w-[180px] lg:text-[18px] border lg:border-2 lg:border-indigo-700 rounded-[50px] text-white  lg:text-black bg-[#6E07F3] lg:bg-white hover:bg-[#6E07F3] hover:transition-all duration-700 hover:text-white hover:shadow-lg text-[14px]">
               Reach Out
             </button>
           </a>
