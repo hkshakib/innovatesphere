@@ -19,7 +19,7 @@ const Experiences = () => {
           transition={{ ease: "easeOut", duration: 3 }}
           initial={{ x: 850 }}
           style={{ overflow: "hidden" }}
-          className="col-span-4 w-full h-full "
+          className="col-span-4 w-full h-full pt-4"
         >
           <div className="w-full h-full bg-[#F8EDFF] rounded-md p-2 md:pl-4">
             <h1 className="text-black text-xl font-medium py-1">
@@ -65,7 +65,7 @@ const Experiences = () => {
           transition={{ ease: "easeOut", duration: 3 }}
           initial={{ x: 850 }}
           style={{ overflow: "hidden" }}
-          className="col-span-4 w-full h-full "
+          className="col-span-4 w-full h-full pt-4"
         >
           <div className="w-full h-full bg-[#F8EDFF] rounded-md p-2 md:pl-4">
             <h1 className="text-black text-xl font-medium py-1">
@@ -102,7 +102,7 @@ const Experiences = () => {
           transition={{ ease: "easeOut", duration: 3 }}
           initial={{ x: 850 }}
           style={{ overflow: "hidden" }}
-          className="col-span-4 w-full h-full "
+          className="col-span-4 w-full h-full pt-4"
         >
           <div className="w-full h-full bg-[#F8EDFF] rounded-md p-2 md:pl-4">
             <h1 className="text-black text-xl font-medium py-1">Manager</h1>
@@ -145,7 +145,7 @@ const Experiences = () => {
           transition={{ ease: "easeOut", duration: 3 }}
           initial={{ x: 850 }}
           style={{ overflow: "hidden" }}
-          className="col-span-4 w-full h-full "
+          className="col-span-4 w-full h-full pt-4"
         >
           <div className="w-full h-full bg-[#F8EDFF] rounded-md p-2 md:pl-4">
             <h1 className="text-black text-xl font-medium py-1">
