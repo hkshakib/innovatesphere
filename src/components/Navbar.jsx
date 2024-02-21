@@ -96,25 +96,7 @@ function Navbar() {
               Skills
             </Link>
           </li>
-          <li
-            className={
-              activeSection === "problem-solving"
-                ? "text-[#525CEB]  animate-hFlip"
-                : "hover:text-[#525CEB]  cursor-pointer"
-            }
-          >
-            <Link
-              activeClass="active"
-              to="problem-solving"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={800}
-              onClick={() => closeMenuAndScroll("problem-solving")}
-            >
-              Problem Solving
-            </Link>
-          </li>
+
           <li
             className={
               activeSection === "experience"
@@ -151,6 +133,25 @@ function Navbar() {
               onClick={() => closeMenuAndScroll("projects")}
             >
               Projects
+            </Link>
+          </li>
+          <li
+            className={
+              activeSection === "problem-solving"
+                ? "text-[#525CEB]  animate-hFlip"
+                : "hover:text-[#525CEB]  cursor-pointer"
+            }
+          >
+            <Link
+              activeClass="active"
+              to="problem-solving"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={800}
+              onClick={() => closeMenuAndScroll("problem-solving")}
+            >
+              Problem Solving
             </Link>
           </li>
 
