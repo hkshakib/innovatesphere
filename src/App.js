@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Summery from "./pages/Summery";
 
 function App() {
   return (
@@ -10,6 +11,12 @@ function App() {
         className="flex pt-[50px] items-center justify-center relative"
       >
         <Home />
+      </section>
+      <section
+        id="home"
+        className="flex pt-[50px] items-center justify-center relative"
+      >
+        <Summery />
       </section>
     </div>
   );
