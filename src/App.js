@@ -35,9 +35,12 @@ function App() {
         <Experiences />
       </section>
       <section
-        id="skills"
-        className="flex pt-[50px] pb-20 items-center justify-center relative"
+        id="projects"
+        className="flex flex-col pt-[50px] pb-20 items-center justify-center relative"
       >
+        <div className="flex pb-10">
+          <span className="flex font-mono text-[35px] font-bold">Projects</span>
+        </div>
         <Projects />
       </section>
       <section
