@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Education from "./pages/Education";
 import Experiences from "./pages/Experiences";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -40,6 +41,9 @@ function App() {
           <span className="flex font-mono text-[35px] font-bold">Projects</span>
         </div>
         <Projects />
+      </section>
+      <section id="education" className="flex flex-col pt-[50px] relative">
+        <Education />
       </section>
       <section
         id="footer"
