@@ -7,6 +7,10 @@ import WebLogo from "../static/web.png";
 import DsLogo from "../static/Ds.png";
 import AlgoLogo from "../static/Algo.png";
 import HtmlCssLogo from "../static/html.jpg";
+import JsLogo from "../static/Js.png";
+import UnitLogo from "../static/unit.png";
+import PhpLogo from "../static/php.png";
+import WordpressLogo from "../static/wordpress.jpg";
 
 const Skills = () => {
   return (
@@ -20,6 +24,10 @@ const Skills = () => {
         <Card Name="JAVA" Photo={JavaLogo} />
         <Card Name="Web Development" Photo={WebLogo} />
         <Card Name="HTML & CSS" Photo={HtmlCssLogo} />
+        <Card Name="JavaScript" Photo={JsLogo} />
+        <Card Name="PHP" Photo={PhpLogo} />
+        <Card Name="Wordpress" Photo={WordpressLogo} />
+        <Card Name="Unit Testing With JUnit" Photo={UnitLogo} />
         <Card Name="Data Structure" Photo={DsLogo} />
         <Card Name="Algorithms" Photo={AlgoLogo} />
       </div>
