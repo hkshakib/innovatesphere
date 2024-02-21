@@ -10,6 +10,10 @@ import HtmlCssLogo from "../static/html.jpg";
 import JsLogo from "../static/Js.png";
 import UnitLogo from "../static/unit.png";
 import PhpLogo from "../static/php.png";
+import ReactLogo from "../static/react.png";
+import BootstrapLogo from "../static/bootstrap.png";
+import SqlLogo from "../static/sql.png";
+import PostgresLogo from "../static/Postgresql.png";
 import WordpressLogo from "../static/wordpress.jpg";
 
 const Skills = () => {
@@ -23,9 +27,13 @@ const Skills = () => {
         <Card Name="C++" Photo={CppLogo} />
         <Card Name="JAVA" Photo={JavaLogo} />
         <Card Name="JavaScript" Photo={JsLogo} />
+        <Card Name="React JS" Photo={ReactLogo} />
+        <Card Name="Bootstrap" Photo={BootstrapLogo} />
+        <Card Name="SQL" Photo={SqlLogo} />
+        <Card Name="PostgreSQL" Photo={PostgresLogo} />
         <Card Name="PHP" Photo={PhpLogo} />
-        <Card Name="Web Development" Photo={WebLogo} />
         <Card Name="HTML & CSS" Photo={HtmlCssLogo} />
+        <Card Name="Web Development" Photo={WebLogo} />
         <Card Name="Wordpress" Photo={WordpressLogo} />
         <Card Name="Unit Testing With JUnit" Photo={UnitLogo} />
         <Card Name="Data Structure" Photo={DsLogo} />
