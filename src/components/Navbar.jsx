@@ -216,17 +216,7 @@ function Navbar() {
                 Skills
               </a>
             </li>
-            <li
-              className={
-                activeSection === "problem-solving"
-                  ? "text-[#525CEB]  border-b-[1px]"
-                  : "hover:text-[#525CEB]  cursor-pointer border-b-[1px]"
-              }
-            >
-              <a href="#problem-solving" onClick={() => setMenuOpen(!menuOpen)}>
-                Problem Solving
-              </a>
-            </li>
+
             <li
               className={
                 activeSection === "experience"
@@ -251,13 +241,13 @@ function Navbar() {
             </li>
             <li
               className={
-                activeSection === "research"
+                activeSection === "problem-solving"
                   ? "text-[#525CEB]  border-b-[1px]"
                   : "hover:text-[#525CEB]  cursor-pointer border-b-[1px]"
               }
             >
-              <a href="#research" onClick={() => setMenuOpen(!menuOpen)}>
-                Research
+              <a href="#problem-solving" onClick={() => setMenuOpen(!menuOpen)}>
+                Problem Solving
               </a>
             </li>
             <li

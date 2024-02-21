@@ -45,14 +45,14 @@ const Home = () => {
 
           <div className="flex justify-center items-center text-[35px] gap-10 md:gap-4 font-semibold">
             <a
-              href="https://github.com/hkshakib"
+              href="https://github.com/Rahi-Ahmed"
               target="_blank"
               rel="noopener noreferrer"
             >
               <AiOutlineGithub className="HomeIcon" />
             </a>
             <a
-              href="https://www.linkedin.com/in/hkshakib/"
+              href="https://www.linkedin.com/in/rahi-ahmed-541809198/"
               target="_blank"
               rel="noopener noreferrer"
             >

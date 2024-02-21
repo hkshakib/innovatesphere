@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Experiences from "./pages/Experiences";
 import Home from "./pages/Home";
@@ -28,10 +29,7 @@ function App() {
         <Skills />
       </section>
 
-      <section
-        id="experience"
-        className="flex flex-col pt-[50px] relative bg-[#BFCFE7]"
-      >
+      <section id="experience" className="flex flex-col pt-[50px] relative">
         <Experiences />
       </section>
       <section
@@ -44,9 +42,11 @@ function App() {
         <Projects />
       </section>
       <section
-        id="home"
+        id="footer"
         className="flex pt-[50px] items-center justify-center relative"
-      ></section>
+      >
+        <Footer />
+      </section>
     </div>
   );
 }
