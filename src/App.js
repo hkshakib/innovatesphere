@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Experiences from "./pages/Experiences";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Summery from "./pages/Summery";
@@ -21,9 +22,16 @@ function App() {
       </section>
       <section
         id="skills"
-        className="flex pt-[50px] items-center justify-center relative"
+        className="flex pt-[50px] pb-20 items-center justify-center relative"
       >
         <Skills />
+      </section>
+
+      <section
+        id="experience"
+        className="flex flex-col pt-[50px] relative bg-[#BFCFE7]"
+      >
+        <Experiences />
       </section>
       <section
         id="home"

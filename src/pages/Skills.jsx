@@ -22,10 +22,10 @@ const Skills = () => {
         <Card Name="C" Photo={CLogo} />
         <Card Name="C++" Photo={CppLogo} />
         <Card Name="JAVA" Photo={JavaLogo} />
-        <Card Name="Web Development" Photo={WebLogo} />
-        <Card Name="HTML & CSS" Photo={HtmlCssLogo} />
         <Card Name="JavaScript" Photo={JsLogo} />
         <Card Name="PHP" Photo={PhpLogo} />
+        <Card Name="Web Development" Photo={WebLogo} />
+        <Card Name="HTML & CSS" Photo={HtmlCssLogo} />
         <Card Name="Wordpress" Photo={WordpressLogo} />
         <Card Name="Unit Testing With JUnit" Photo={UnitLogo} />
         <Card Name="Data Structure" Photo={DsLogo} />
