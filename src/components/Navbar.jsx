@@ -65,7 +65,7 @@ function Navbar() {
   return (
     <header
       className={`flex justify-start lg:justify-center items-center h-16 z-10  lg:w-[100%] font-inter pt-4 pr-2 pb-2 ${
-        isNavbarSticky ? "sticky top-0 bg-white border-b" : ""
+        isNavbarSticky ? "sticky top-0 bg-[#BFCFE7] border-b" : ""
       }`}
     >
       <div className="flex font-bold text-xl lg:pl-8 ml-4 font-mono">
