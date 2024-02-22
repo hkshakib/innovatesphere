@@ -49,6 +49,7 @@ function Navbar() {
   }, [isNavbarSticky, menuOpen]);
 
   const closeMenuAndScroll = (sectionId) => {
+    console.log("Clicked");
     setMenuOpen(false);
     scroller.scrollTo(sectionId, {
       duration: 800,

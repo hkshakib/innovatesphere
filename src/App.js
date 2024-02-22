@@ -50,7 +50,7 @@ function App() {
         <ProblemSolving />
       </section>
 
-      <section id="education" className="flex flex-col pt-[50px] relative">
+      <section id="education" className="flex flex-col pt-[100px] relative">
         <Education />
       </section>
 
