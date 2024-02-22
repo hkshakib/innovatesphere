@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
             <h2 className="text-black text-lg font-semibold mb-4">Contact</h2>
             <p className="text-black mb-2 flex items-center">
-              <MdEmail className="mr-2" /> ahmed3g1@uwindsor.ca
+              <MdEmail className="mr-2" /> rahiahmed1819@gmail.com
             </p>
             <p className="text-black flex items-center">
               <MdPhone className="mr-2" /> +(514) 795-2562
