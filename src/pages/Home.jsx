@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
             <div className="flex basis-[60%]">
-              <h6 className="font-bold text-[#090E34] md:text-[3px] lg:text-[40px] xl:text-[45px] whitespace-nowrap pr-4">
+              <h6 className="font-bold text-[#090E34] md:text-[30px] lg:text-[40px] xl:text-[45px] whitespace-nowrap pr-4">
                 Rahi Ahmed
               </h6>
             </div>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <div className="flex flex-1 lg:basis-[50%] items-center justify-center gap-8 w-[100%]">
           <a href="#footer" className="md:flex">
-            <button className="flex justify-center items-center h-[40px] w-[100px] md:h-[50px] md:w-[150px] lg:leading-7 lg:h-[50px] lg:w-[180px] lg:text-[18px] border lg:border-2 lg:border-indigo-700 rounded-[50px] text-white  lg:text-black bg-[#BFCFE7] lg:bg-[#BFCFE7] hover:bg-[#6E07F3] hover:transition-all duration-700 hover:text-white hover:shadow-lg text-[14px]">
+            <button className="flex justify-center items-center h-[40px] w-[100px] md:h-[50px] md:w-[150px] lg:leading-7 lg:h-[50px] lg:w-[180px] lg:text-[18px] border-2 border-indigo-700 rounded-[10px] lg:rounded-[50px] text-[16px] text-black bg-[#BFCFE7] hover:bg-[#6E07F3] hover:transition-all duration-700 hover:text-white hover:shadow-lg">
               Reach Out
             </button>
           </a>
@@ -70,7 +70,7 @@ const Home = () => {
         className="flex basis-[50%] justify-center items-center"
       >
         <img
-          className="flex p-2 lg:p-0 rounded-[50px] md:rounded-full h-[500px] w-[500px] object-cover"
+          className="flex p-2 lg:p-0 rounded-[50px] lg:rounded-full lg:h-[500px] lg:w-[500px] object-cover"
           src={Avatar}
           alt="Avatar"
         />
