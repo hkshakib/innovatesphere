@@ -9,7 +9,7 @@ const ProjectCard = ({
   liveLink,
 }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+    <div className="pl-2 pr-2 max-w-sm rounded overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
       <img className="w-full h-[300px] fit-contain" src={image} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>

@@ -8,7 +8,7 @@ const Experiences = () => {
         <h1 className="text-[35px] lg:text-[56px] font-mono">Experience</h1>
       </div>
       <div className="flex flex-col flex-1">
-        <div className="max-w-7xl mx-auto md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
+        <div className="max-w-7xl mx-auto xl:mx-[320px] md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
           <div className="relative col-span-1 w-full h-full flex justify-center">
             <div className="h-full w-1 bg-[#3D3B40] mt-2"></div>
             <div className="absolute w-6 h-6 rounded-full bg-[#F8EDFF] z-1 text-blue-700 text-center">
@@ -54,7 +54,7 @@ const Experiences = () => {
             </div>
           </motion.div>
         </div>
-        <div className="max-w-7xl mx-auto md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
+        <div className="max-w-7xl mx-auto xl:mx-[320px] md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
           <div className="relative col-span-1 w-full h-full flex justify-center">
             <div className="h-full w-1 bg-[#3D3B40] mt-2"></div>
             <div className="absolute w-6 h-6 rounded-full bg-[#F8EDFF] z-1 text-blue-700 text-center">
@@ -92,7 +92,7 @@ const Experiences = () => {
             </div>
           </motion.div>
         </div>
-        <div className="max-w-7xl mx-auto md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
+        <div className="max-w-7xl mx-auto xl:mx-[320px] md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
           <div className="relative col-span-1 w-full h-full flex justify-center">
             <div className="h-full w-1 bg-[#3D3B40] mt-2"></div>
             <div className="absolute w-6 h-6 rounded-full bg-[#F8EDFF] z-1 text-blue-700 text-center">
@@ -135,7 +135,7 @@ const Experiences = () => {
             </div>
           </motion.div>
         </div>
-        <div className="max-w-7xl mx-auto md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
+        <div className="max-w-7xl mx-auto xl:mx-[320px] md:w-full grid grid-cols-6 lg:grid-cols-5 lg:relative bottom-20 right-14 pb-4">
           <div className="relative col-span-1 w-full h-full flex justify-center">
             <div className="h-full w-1 bg-[#3D3B40] mt-2"></div>
             <div className="absolute w-6 h-6 rounded-full bg-[#F8EDFF] z-1 text-blue-700 text-center">
