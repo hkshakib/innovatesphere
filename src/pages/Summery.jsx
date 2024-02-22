@@ -6,7 +6,7 @@ const Summery = () => {
       <div className="opacity-1 text-[#3D3B40] p-10 text-[17px]">
         <p>
           👋 Greetings! I'm a passionate computer science student and aspiring
-          software engineer, deeply immersed in the realms of problem-solving
+          software engineer career, deeply immersed in the realms of problem-solving
           and competitive programming. Proficient in the arcane languages of C,
           C++, and Java, I revel in the art of crafting efficient and elegant
           solutions. <br /> <br />
