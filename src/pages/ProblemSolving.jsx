@@ -41,9 +41,12 @@ const ProblemSolving = () => {
               </div>
               <div className="p-6 flex flex-col flex-1 items-center justify-center">
                 <p className="text-gray-700 mb-2">
-                  Solved: {detail.solved} Problems
+                  Solved: <span className="font-bold">{detail.solved}</span>{" "}
+                  Problems
                 </p>
-                <p className="text-gray-700 mb-2">Rating: {detail.rating}</p>
+                <p className="text-gray-700 mb-2 pb-8">
+                  Rating: <span className="font-bold">{detail.rating}</span>
+                </p>
                 <a href={detail.profile}>
                   <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
                     See Profile
