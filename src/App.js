@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Education from "./pages/Education";
 import Experiences from "./pages/Experiences";
 import Home from "./pages/Home";
+import ProblemSolving from "./pages/ProblemSolving";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Summery from "./pages/Summery";
@@ -44,6 +45,9 @@ function App() {
       </section>
       <section id="education" className="flex flex-col pt-[50px] relative">
         <Education />
+      </section>
+      <section id="problemsolving" className="flex flex-col pt-[50px] relative">
+        <ProblemSolving />
       </section>
       <section
         id="footer"
