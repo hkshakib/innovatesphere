@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="flex flex-1 bg-[#BFCFE7] py-12">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap justify-between pl-4 lg:pl-0">
           <div className="w-full md:w-1/2 lg:w-1/3 mb-8 md:mb-0">
             <h2 className="text-black text-lg font-semibold mb-4">Contact</h2>
             <p className="text-black mb-2 flex items-center">
