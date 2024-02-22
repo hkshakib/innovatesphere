@@ -266,7 +266,7 @@ function Navbar() {
             href={CV}
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-[10px]"
+            className="mx-[10px] hidden"
           >
             <button className="flex justify-center items-center border h-[40px] w-[200px]  my-1 rounded-lg bg-blue-500 text-white hover:bg-blue-400 hover:shadow-lg text-[13px]">
               <span className="flex gap-4 justify-center items-center">

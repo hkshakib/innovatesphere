@@ -43,9 +43,13 @@ function App() {
         </div>
         <Projects />
       </section>
-      <section id="problemsolving" className="flex flex-col pt-[50px] relative">
+      <section
+        id="problem-solving"
+        className="flex flex-col pt-[50px] relative"
+      >
         <ProblemSolving />
       </section>
+
       <section id="education" className="flex flex-col pt-[50px] relative">
         <Education />
       </section>
