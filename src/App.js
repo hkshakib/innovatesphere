@@ -43,12 +43,13 @@ function App() {
         </div>
         <Projects />
       </section>
-      <section id="education" className="flex flex-col pt-[50px] relative">
-        <Education />
-      </section>
       <section id="problemsolving" className="flex flex-col pt-[50px] relative">
         <ProblemSolving />
       </section>
+      <section id="education" className="flex flex-col pt-[50px] relative">
+        <Education />
+      </section>
+
       <section
         id="footer"
         className="flex pt-[50px] items-center justify-center relative"
